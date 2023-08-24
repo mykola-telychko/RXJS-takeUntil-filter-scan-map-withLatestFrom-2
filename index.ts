@@ -1,6 +1,9 @@
 import { interval } from 'rxjs';
 import { takeUntil, filter, scan, map, withLatestFrom } from 'rxjs/operators';
 
+// https://www.learnrxjs.io/learn-rxjs/operators/filtering/takeuntil
+// Example 2: Take the first 5 even numbers
+
 //emit value every 1s
 const srcInterval$ = interval(1000);
 //is number even?
